@@ -1,0 +1,22 @@
+{
+    "designId": 533,
+    "designConfiguration": [
+    {
+        "objectType": "SpaceCraft",
+        "components":
+        [
+            "OSL",
+            "SAR",
+            "data"
+        ]
+    },
+    {
+        "objectType": "SpaceCraft",
+        "components":
+        [
+            "OSL",
+            "SAR",
+            "data"
+        ]
+    }]
+}

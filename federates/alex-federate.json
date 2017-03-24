@@ -1,0 +1,21 @@
+{
+    "designId": 531,
+    "designConfiguration": [
+    {
+        "objectType": "GroundStation",
+        "components":
+        [
+            "OSL"
+        ]
+    },
+    {
+        "objectType": "SpaceCraft",
+        "components":
+        [
+            "OSL",
+            "SAR",
+            "data",
+            "data"
+        ]
+    }]
+}

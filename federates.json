@@ -1,0 +1,1592 @@
+[
+	{
+		"designIds": [2,0]
+	},
+	{
+		"designIds": [3,1]
+	},
+	{
+		"designIds": [4,0]
+	},
+	{
+		"designIds": [5,1]
+	},
+	{
+		"designIds": [6,0]
+	},
+	{
+		"designIds": [7,0]
+	},
+	{
+		"designIds": [8,0]
+	},
+	{
+		"designIds": [9,0]
+	},
+	{
+		"designIds": [10,1]
+	},
+	{
+		"designIds": [11,0]
+	},
+	{
+		"designIds": [12,1]
+	},
+	{
+		"designIds": [13,1]
+	},
+	{
+		"designIds": [14,0]
+	},
+	{
+		"designIds": [15,1]
+	},
+	{
+		"designIds": [16,1]
+	},
+	{
+		"designIds": [17,1]
+	},
+	{
+		"designIds": [18,1]
+	},
+	{
+		"designIds": [19,0]
+	},
+	{
+		"designIds": [20,0]
+	},
+	{
+		"designIds": [21,1]
+	},
+	{
+		"designIds": [2,4,0]
+	},
+	{
+		"designIds": [3,5,1]
+	},
+	{
+		"designIds": [5,5,1]
+	},
+	{
+		"designIds": [22,0]
+	},
+	{
+		"designIds": [3,3,1]
+	},
+	{
+		"designIds": [2,2,0]
+	},
+	{
+		"designIds": [23,1]
+	},
+	{
+		"designIds": [24,1]
+	},
+	{
+		"designIds": [25,0]
+	},
+	{
+		"designIds": [26,0]
+	},
+	{
+		"designIds": [27,1]
+	},
+	{
+		"designIds": [28,0]
+	},
+	{
+		"designIds": [29,1]
+	},
+	{
+		"designIds": [30,1]
+	},
+	{
+		"designIds": [31,0]
+	},
+	{
+		"designIds": [32,0]
+	},
+	{
+		"designIds": [4,4,0]
+	},
+	{
+		"designIds": [33,1]
+	},
+	{
+		"designIds": [34,1]
+	},
+	{
+		"designIds": [4,8,0]
+	},
+	{
+		"designIds": [35,16,1]
+	},
+	{
+		"designIds": [36,9,0]
+	},
+	{
+		"designIds": [3,17,1]
+	},
+	{
+		"designIds": [2,11,0]
+	},
+	{
+		"designIds": [4,11,0]
+	},
+	{
+		"designIds": [4,19,0]
+	},
+	{
+		"designIds": [37,7,0]
+	},
+	{
+		"designIds": [2,8,0]
+	},
+	{
+		"designIds": [5,17,1]
+	},
+	{
+		"designIds": [36,14,0]
+	},
+	{
+		"designIds": [3,18,1]
+	},
+	{
+		"designIds": [38,0]
+	},
+	{
+		"designIds": [39,0]
+	},
+	{
+		"designIds": [2,19,0]
+	},
+	{
+		"designIds": [35,12,1]
+	},
+	{
+		"designIds": [37,6,0]
+	},
+	{
+		"designIds": [40,1]
+	},
+	{
+		"designIds": [5,18,1]
+	},
+	{
+		"designIds": [41,15,1]
+	},
+	{
+		"designIds": [41,10,1]
+	},
+	{
+		"designIds": [3,13,1]
+	},
+	{
+		"designIds": [5,13,1]
+	},
+	{
+		"designIds": [18,18,1]
+	},
+	{
+		"designIds": [18,13,1]
+	},
+	{
+		"designIds": [13,13,1]
+	},
+	{
+		"designIds": [4,22,0]
+	},
+	{
+		"designIds": [2,2,4,0]
+	},
+	{
+		"designIds": [17,13,1]
+	},
+	{
+		"designIds": [11,11,0]
+	},
+	{
+		"designIds": [15,15,1]
+	},
+	{
+		"designIds": [15,42,1]
+	},
+	{
+		"designIds": [9,43,0]
+	},
+	{
+		"designIds": [35,30,1]
+	},
+	{
+		"designIds": [41,27,1]
+	},
+	{
+		"designIds": [16,16,1]
+	},
+	{
+		"designIds": [4,4,4,0]
+	},
+	{
+		"designIds": [2,22,0]
+	},
+	{
+		"designIds": [2,2,2,0]
+	},
+	{
+		"designIds": [11,19,0]
+	},
+	{
+		"designIds": [19,19,0]
+	},
+	{
+		"designIds": [10,15,1]
+	},
+	{
+		"designIds": [6,44,0]
+	},
+	{
+		"designIds": [2,4,4,0]
+	},
+	{
+		"designIds": [14,14,0]
+	},
+	{
+		"designIds": [37,26,0]
+	},
+	{
+		"designIds": [36,25,0]
+	},
+	{
+		"designIds": [17,18,1]
+	},
+	{
+		"designIds": [5,33,1]
+	},
+	{
+		"designIds": [8,19,0]
+	},
+	{
+		"designIds": [16,45,1]
+	},
+	{
+		"designIds": [6,6,0]
+	},
+	{
+		"designIds": [8,11,0]
+	},
+	{
+		"designIds": [41,21,1]
+	},
+	{
+		"designIds": [9,14,0]
+	},
+	{
+		"designIds": [36,31,0]
+	},
+	{
+		"designIds": [36,28,0]
+	},
+	{
+		"designIds": [37,32,0]
+	},
+	{
+		"designIds": [17,17,1]
+	},
+	{
+		"designIds": [35,29,1]
+	},
+	{
+		"designIds": [7,44,0]
+	},
+	{
+		"designIds": [8,8,0]
+	},
+	{
+		"designIds": [9,9,0]
+	},
+	{
+		"designIds": [5,5,5,1]
+	},
+	{
+		"designIds": [3,33,1]
+	},
+	{
+		"designIds": [37,20,0]
+	},
+	{
+		"designIds": [3,3,3,1]
+	},
+	{
+		"designIds": [3,5,5,1]
+	},
+	{
+		"designIds": [35,23,1]
+	},
+	{
+		"designIds": [12,45,1]
+	},
+	{
+		"designIds": [14,43,0]
+	},
+	{
+		"designIds": [41,24,1]
+	},
+	{
+		"designIds": [10,42,1]
+	},
+	{
+		"designIds": [12,12,1]
+	},
+	{
+		"designIds": [16,12,1]
+	},
+	{
+		"designIds": [3,3,5,1]
+	},
+	{
+		"designIds": [7,6,0]
+	},
+	{
+		"designIds": [10,10,1]
+	},
+	{
+		"designIds": [7,7,0]
+	},
+	{
+		"designIds": [41,41,15,1]
+	},
+	{
+		"designIds": [35,35,16,1]
+	},
+	{
+		"designIds": [44,20,0]
+	},
+	{
+		"designIds": [6,32,0]
+	},
+	{
+		"designIds": [8,22,0]
+	},
+	{
+		"designIds": [4,4,8,0]
+	},
+	{
+		"designIds": [44,32,0]
+	},
+	{
+		"designIds": [45,29,1]
+	},
+	{
+		"designIds": [43,28,0]
+	},
+	{
+		"designIds": [7,32,0]
+	},
+	{
+		"designIds": [12,30,1]
+	},
+	{
+		"designIds": [37,37,6,0]
+	},
+	{
+		"designIds": [36,36,14,0]
+	},
+	{
+		"designIds": [14,25,0]
+	},
+	{
+		"designIds": [7,20,0]
+	},
+	{
+		"designIds": [2,2,8,0]
+	},
+	{
+		"designIds": [37,37,7,0]
+	},
+	{
+		"designIds": [3,3,13,1]
+	},
+	{
+		"designIds": [2,4,8,0]
+	},
+	{
+		"designIds": [2,4,11,0]
+	},
+	{
+		"designIds": [15,21,1]
+	},
+	{
+		"designIds": [17,33,1]
+	},
+	{
+		"designIds": [12,23,1]
+	},
+	{
+		"designIds": [16,23,1]
+	},
+	{
+		"designIds": [4,4,11,0]
+	},
+	{
+		"designIds": [16,30,1]
+	},
+	{
+		"designIds": [9,31,0]
+	},
+	{
+		"designIds": [10,27,1]
+	},
+	{
+		"designIds": [7,26,0]
+	},
+	{
+		"designIds": [3,3,17,1]
+	},
+	{
+		"designIds": [6,20,0]
+	},
+	{
+		"designIds": [35,40,1]
+	},
+	{
+		"designIds": [6,26,0]
+	},
+	{
+		"designIds": [10,21,1]
+	},
+	{
+		"designIds": [43,25,0]
+	},
+	{
+		"designIds": [14,28,0]
+	},
+	{
+		"designIds": [45,30,1]
+	},
+	{
+		"designIds": [16,29,1]
+	},
+	{
+		"designIds": [9,25,0]
+	},
+	{
+		"designIds": [36,38,0]
+	},
+	{
+		"designIds": [2,2,11,0]
+	},
+	{
+		"designIds": [43,31,0]
+	},
+	{
+		"designIds": [36,36,9,0]
+	},
+	{
+		"designIds": [3,5,17,1]
+	},
+	{
+		"designIds": [11,22,0]
+	},
+	{
+		"designIds": [18,33,1]
+	},
+	{
+		"designIds": [15,27,1]
+	},
+	{
+		"designIds": [12,29,1]
+	},
+	{
+		"designIds": [42,21,1]
+	},
+	{
+		"designIds": [3,5,18,1]
+	},
+	{
+		"designIds": [5,5,18,1]
+	},
+	{
+		"designIds": [42,24,1]
+	},
+	{
+		"designIds": [37,39,0]
+	},
+	{
+		"designIds": [44,26,0]
+	},
+	{
+		"designIds": [42,27,1]
+	},
+	{
+		"designIds": [9,28,0]
+	},
+	{
+		"designIds": [2,4,19,0]
+	},
+	{
+		"designIds": [14,31,0]
+	},
+	{
+		"designIds": [41,41,10,1]
+	},
+	{
+		"designIds": [13,33,1]
+	},
+	{
+		"designIds": [10,24,1]
+	},
+	{
+		"designIds": [35,35,12,1]
+	},
+	{
+		"designIds": [19,22,0]
+	},
+	{
+		"designIds": [3,5,13,1]
+	},
+	{
+		"designIds": [41,34,1]
+	},
+	{
+		"designIds": [5,5,17,1]
+	},
+	{
+		"designIds": [3,3,18,1]
+	},
+	{
+		"designIds": [15,24,1]
+	},
+	{
+		"designIds": [2,2,19,0]
+	},
+	{
+		"designIds": [5,5,13,1]
+	},
+	{
+		"designIds": [45,23,1]
+	},
+	{
+		"designIds": [4,4,19,0]
+	},
+	{
+		"designIds": [45,40,1]
+	},
+	{
+		"designIds": [5,18,13,1]
+	},
+	{
+		"designIds": [4,8,11,0]
+	},
+	{
+		"designIds": [41,15,15,1]
+	},
+	{
+		"designIds": [14,38,0]
+	},
+	{
+		"designIds": [36,14,14,0]
+	},
+	{
+		"designIds": [16,40,1]
+	},
+	{
+		"designIds": [2,11,11,0]
+	},
+	{
+		"designIds": [2,19,19,0]
+	},
+	{
+		"designIds": [31,28,0]
+	},
+	{
+		"designIds": [4,8,8,0]
+	},
+	{
+		"designIds": [2,11,19,0]
+	},
+	{
+		"designIds": [25,28,0]
+	},
+	{
+		"designIds": [20,20,0]
+	},
+	{
+		"designIds": [35,16,45,1]
+	},
+	{
+		"designIds": [9,38,0]
+	},
+	{
+		"designIds": [37,37,26,0]
+	},
+	{
+		"designIds": [43,38,0]
+	},
+	{
+		"designIds": [32,32,0]
+	},
+	{
+		"designIds": [36,36,25,0]
+	},
+	{
+		"designIds": [36,36,31,0]
+	},
+	{
+		"designIds": [41,15,42,1]
+	},
+	{
+		"designIds": [22,22,0]
+	},
+	{
+		"designIds": [41,41,24,1]
+	},
+	{
+		"designIds": [41,10,10,1]
+	},
+	{
+		"designIds": [2,8,11,0]
+	},
+	{
+		"designIds": [12,40,1]
+	},
+	{
+		"designIds": [5,13,13,1]
+	},
+	{
+		"designIds": [35,35,23,1]
+	},
+	{
+		"designIds": [5,17,17,1]
+	},
+	{
+		"designIds": [26,32,0]
+	},
+	{
+		"designIds": [27,24,1]
+	},
+	{
+		"designIds": [4,4,22,0]
+	},
+	{
+		"designIds": [3,18,18,1]
+	},
+	{
+		"designIds": [4,11,19,0]
+	},
+	{
+		"designIds": [2,2,22,0]
+	},
+	{
+		"designIds": [35,12,12,1]
+	},
+	{
+		"designIds": [41,10,15,1]
+	},
+	{
+		"designIds": [42,34,1]
+	},
+	{
+		"designIds": [28,28,0]
+	},
+	{
+		"designIds": [3,17,18,1]
+	},
+	{
+		"designIds": [30,30,1]
+	},
+	{
+		"designIds": [36,9,14,0]
+	},
+	{
+		"designIds": [26,20,0]
+	},
+	{
+		"designIds": [37,6,6,0]
+	},
+	{
+		"designIds": [2,8,8,0]
+	},
+	{
+		"designIds": [37,37,20,0]
+	},
+	{
+		"designIds": [37,6,44,0]
+	},
+	{
+		"designIds": [37,37,32,0]
+	},
+	{
+		"designIds": [37,7,44,0]
+	},
+	{
+		"designIds": [15,34,1]
+	},
+	{
+		"designIds": [23,23,1]
+	},
+	{
+		"designIds": [44,39,0]
+	},
+	{
+		"designIds": [5,17,13,1]
+	},
+	{
+		"designIds": [4,11,11,0]
+	},
+	{
+		"designIds": [35,12,45,1]
+	},
+	{
+		"designIds": [3,17,17,1]
+	},
+	{
+		"designIds": [2,8,19,0]
+	},
+	{
+		"designIds": [3,13,13,1]
+	},
+	{
+		"designIds": [35,35,30,1]
+	},
+	{
+		"designIds": [4,8,19,0]
+	},
+	{
+		"designIds": [33,33,1]
+	},
+	{
+		"designIds": [37,7,6,0]
+	},
+	{
+		"designIds": [41,41,27,1]
+	},
+	{
+		"designIds": [36,36,28,0]
+	},
+	{
+		"designIds": [3,5,33,1]
+	},
+	{
+		"designIds": [41,10,42,1]
+	},
+	{
+		"designIds": [3,17,13,1]
+	},
+	{
+		"designIds": [41,41,21,1]
+	},
+	{
+		"designIds": [3,18,13,1]
+	},
+	{
+		"designIds": [4,19,19,0]
+	},
+	{
+		"designIds": [25,25,0]
+	},
+	{
+		"designIds": [29,29,1]
+	},
+	{
+		"designIds": [35,16,12,1]
+	},
+	{
+		"designIds": [23,29,1]
+	},
+	{
+		"designIds": [36,14,43,0]
+	},
+	{
+		"designIds": [35,35,29,1]
+	},
+	{
+		"designIds": [36,9,43,0]
+	},
+	{
+		"designIds": [36,9,9,0]
+	},
+	{
+		"designIds": [21,21,1]
+	},
+	{
+		"designIds": [10,34,1]
+	},
+	{
+		"designIds": [31,31,0]
+	},
+	{
+		"designIds": [5,18,18,1]
+	},
+	{
+		"designIds": [27,27,1]
+	},
+	{
+		"designIds": [24,24,1]
+	},
+	{
+		"designIds": [21,27,1]
+	},
+	{
+		"designIds": [5,17,18,1]
+	},
+	{
+		"designIds": [7,39,0]
+	},
+	{
+		"designIds": [37,7,7,0]
+	},
+	{
+		"designIds": [20,32,0]
+	},
+	{
+		"designIds": [26,26,0]
+	},
+	{
+		"designIds": [3,3,33,1]
+	},
+	{
+		"designIds": [2,4,22,0]
+	},
+	{
+		"designIds": [6,39,0]
+	},
+	{
+		"designIds": [25,31,0]
+	},
+	{
+		"designIds": [30,23,1]
+	},
+	{
+		"designIds": [30,29,1]
+	},
+	{
+		"designIds": [5,5,33,1]
+	},
+	{
+		"designIds": [21,24,1]
+	},
+	{
+		"designIds": [35,16,16,1]
+	},
+	{
+		"designIds": [35,12,30,1]
+	},
+	{
+		"designIds": [17,17,18,1]
+	},
+	{
+		"designIds": [2,11,22,0]
+	},
+	{
+		"designIds": [4,8,22,0]
+	},
+	{
+		"designIds": [37,6,32,0]
+	},
+	{
+		"designIds": [36,43,28,0]
+	},
+	{
+		"designIds": [28,38,0]
+	},
+	{
+		"designIds": [17,18,13,1]
+	},
+	{
+		"designIds": [41,42,21,1]
+	},
+	{
+		"designIds": [41,15,24,1]
+	},
+	{
+		"designIds": [41,15,21,1]
+	},
+	{
+		"designIds": [2,8,22,0]
+	},
+	{
+		"designIds": [8,11,11,0]
+	},
+	{
+		"designIds": [5,18,33,1]
+	},
+	{
+		"designIds": [36,36,38,0]
+	},
+	{
+		"designIds": [36,9,31,0]
+	},
+	{
+		"designIds": [37,44,32,0]
+	},
+	{
+		"designIds": [37,37,39,0]
+	},
+	{
+		"designIds": [41,10,27,1]
+	},
+	{
+		"designIds": [41,10,24,1]
+	},
+	{
+		"designIds": [8,11,19,0]
+	},
+	{
+		"designIds": [36,14,31,0]
+	},
+	{
+		"designIds": [2,19,22,0]
+	},
+	{
+		"designIds": [36,14,28,0]
+	},
+	{
+		"designIds": [36,43,31,0]
+	},
+	{
+		"designIds": [35,45,29,1]
+	},
+	{
+		"designIds": [20,39,0]
+	},
+	{
+		"designIds": [8,8,19,0]
+	},
+	{
+		"designIds": [37,6,26,0]
+	},
+	{
+		"designIds": [11,11,19,0]
+	},
+	{
+		"designIds": [30,40,1]
+	},
+	{
+		"designIds": [35,45,30,1]
+	},
+	{
+		"designIds": [5,17,33,1]
+	},
+	{
+		"designIds": [26,39,0]
+	},
+	{
+		"designIds": [36,43,25,0]
+	},
+	{
+		"designIds": [24,34,1]
+	},
+	{
+		"designIds": [11,19,19,0]
+	},
+	{
+		"designIds": [31,38,0]
+	},
+	{
+		"designIds": [35,35,40,1]
+	},
+	{
+		"designIds": [37,7,32,0]
+	},
+	{
+		"designIds": [36,14,25,0]
+	},
+	{
+		"designIds": [13,13,13,1]
+	},
+	{
+		"designIds": [37,44,20,0]
+	},
+	{
+		"designIds": [41,42,27,1]
+	},
+	{
+		"designIds": [37,6,20,0]
+	},
+	{
+		"designIds": [35,16,30,1]
+	},
+	{
+		"designIds": [3,18,33,1]
+	},
+	{
+		"designIds": [35,16,29,1]
+	},
+	{
+		"designIds": [17,17,17,1]
+	},
+	{
+		"designIds": [41,15,27,1]
+	},
+	{
+		"designIds": [35,45,23,1]
+	},
+	{
+		"designIds": [5,13,33,1]
+	},
+	{
+		"designIds": [41,42,24,1]
+	},
+	{
+		"designIds": [4,11,22,0]
+	},
+	{
+		"designIds": [41,10,21,1]
+	},
+	{
+		"designIds": [23,40,1]
+	},
+	{
+		"designIds": [4,19,22,0]
+	},
+	{
+		"designIds": [32,39,0]
+	},
+	{
+		"designIds": [18,18,18,1]
+	},
+	{
+		"designIds": [17,13,13,1]
+	},
+	{
+		"designIds": [35,16,23,1]
+	},
+	{
+		"designIds": [11,11,11,0]
+	},
+	{
+		"designIds": [3,17,33,1]
+	},
+	{
+		"designIds": [29,40,1]
+	},
+	{
+		"designIds": [35,12,23,1]
+	},
+	{
+		"designIds": [18,13,13,1]
+	},
+	{
+		"designIds": [41,41,34,1]
+	},
+	{
+		"designIds": [35,12,29,1]
+	},
+	{
+		"designIds": [36,9,25,0]
+	},
+	{
+		"designIds": [8,8,11,0]
+	},
+	{
+		"designIds": [8,8,8,0]
+	},
+	{
+		"designIds": [25,38,0]
+	},
+	{
+		"designIds": [17,18,18,1]
+	},
+	{
+		"designIds": [27,34,1]
+	},
+	{
+		"designIds": [37,7,20,0]
+	},
+	{
+		"designIds": [37,44,26,0]
+	},
+	{
+		"designIds": [3,13,33,1]
+	},
+	{
+		"designIds": [21,34,1]
+	},
+	{
+		"designIds": [18,18,13,1]
+	},
+	{
+		"designIds": [17,17,13,1]
+	},
+	{
+		"designIds": [8,19,19,0]
+	},
+	{
+		"designIds": [36,9,28,0]
+	},
+	{
+		"designIds": [19,19,19,0]
+	},
+	{
+		"designIds": [37,7,26,0]
+	},
+	{
+		"designIds": [36,43,38,0]
+	},
+	{
+		"designIds": [35,23,29,1]
+	},
+	{
+		"designIds": [5,33,33,1]
+	},
+	{
+		"designIds": [41,15,34,1]
+	},
+	{
+		"designIds": [36,25,31,0]
+	},
+	{
+		"designIds": [36,31,31,0]
+	},
+	{
+		"designIds": [41,42,34,1]
+	},
+	{
+		"designIds": [35,29,29,1]
+	},
+	{
+		"designIds": [13,13,33,1]
+	},
+	{
+		"designIds": [37,20,20,0]
+	},
+	{
+		"designIds": [35,45,40,1]
+	},
+	{
+		"designIds": [41,27,24,1]
+	},
+	{
+		"designIds": [35,12,40,1]
+	},
+	{
+		"designIds": [41,10,34,1]
+	},
+	{
+		"designIds": [41,21,24,1]
+	},
+	{
+		"designIds": [35,30,29,1]
+	},
+	{
+		"designIds": [11,11,22,0]
+	},
+	{
+		"designIds": [11,19,22,0]
+	},
+	{
+		"designIds": [37,26,32,0]
+	},
+	{
+		"designIds": [17,18,33,1]
+	},
+	{
+		"designIds": [37,26,26,0]
+	},
+	{
+		"designIds": [36,28,28,0]
+	},
+	{
+		"designIds": [37,6,39,0]
+	},
+	{
+		"designIds": [8,8,22,0]
+	},
+	{
+		"designIds": [41,21,21,1]
+	},
+	{
+		"designIds": [36,14,38,0]
+	},
+	{
+		"designIds": [36,9,38,0]
+	},
+	{
+		"designIds": [4,22,22,0]
+	},
+	{
+		"designIds": [37,26,20,0]
+	},
+	{
+		"designIds": [41,27,27,1]
+	},
+	{
+		"designIds": [37,32,32,0]
+	},
+	{
+		"designIds": [35,30,23,1]
+	},
+	{
+		"designIds": [36,25,28,0]
+	},
+	{
+		"designIds": [8,11,22,0]
+	},
+	{
+		"designIds": [36,25,25,0]
+	},
+	{
+		"designIds": [37,7,39,0]
+	},
+	{
+		"designIds": [3,33,33,1]
+	},
+	{
+		"designIds": [36,31,28,0]
+	},
+	{
+		"designIds": [2,22,22,0]
+	},
+	{
+		"designIds": [19,19,22,0]
+	},
+	{
+		"designIds": [17,13,33,1]
+	},
+	{
+		"designIds": [18,13,33,1]
+	},
+	{
+		"designIds": [8,19,22,0]
+	},
+	{
+		"designIds": [35,23,23,1]
+	},
+	{
+		"designIds": [37,44,39,0]
+	},
+	{
+		"designIds": [35,30,30,1]
+	},
+	{
+		"designIds": [18,18,33,1]
+	},
+	{
+		"designIds": [37,20,32,0]
+	},
+	{
+		"designIds": [41,24,24,1]
+	},
+	{
+		"designIds": [41,21,27,1]
+	},
+	{
+		"designIds": [35,16,40,1]
+	},
+	{
+		"designIds": [17,17,33,1]
+	},
+	{
+		"designIds": [14,43,38,0]
+	},
+	{
+		"designIds": [11,22,22,0]
+	},
+	{
+		"designIds": [37,32,39,0]
+	},
+	{
+		"designIds": [36,25,38,0]
+	},
+	{
+		"designIds": [9,14,38,0]
+	},
+	{
+		"designIds": [10,15,34,1]
+	},
+	{
+		"designIds": [45,45,40,1]
+	},
+	{
+		"designIds": [10,10,34,1]
+	},
+	{
+		"designIds": [7,44,39,0]
+	},
+	{
+		"designIds": [18,33,33,1]
+	},
+	{
+		"designIds": [43,43,38,0]
+	},
+	{
+		"designIds": [14,14,38,0]
+	},
+	{
+		"designIds": [16,16,40,1]
+	},
+	{
+		"designIds": [36,28,38,0]
+	},
+	{
+		"designIds": [42,42,34,1]
+	},
+	{
+		"designIds": [15,15,34,1]
+	},
+	{
+		"designIds": [16,12,40,1]
+	},
+	{
+		"designIds": [15,42,34,1]
+	},
+	{
+		"designIds": [10,42,34,1]
+	},
+	{
+		"designIds": [8,22,22,0]
+	},
+	{
+		"designIds": [35,30,40,1]
+	},
+	{
+		"designIds": [37,20,39,0]
+	},
+	{
+		"designIds": [37,26,39,0]
+	},
+	{
+		"designIds": [36,31,38,0]
+	},
+	{
+		"designIds": [35,29,40,1]
+	},
+	{
+		"designIds": [12,12,40,1]
+	},
+	{
+		"designIds": [44,44,39,0]
+	},
+	{
+		"designIds": [13,33,33,1]
+	},
+	{
+		"designIds": [17,33,33,1]
+	},
+	{
+		"designIds": [41,27,34,1]
+	},
+	{
+		"designIds": [35,23,40,1]
+	},
+	{
+		"designIds": [6,44,39,0]
+	},
+	{
+		"designIds": [41,21,34,1]
+	},
+	{
+		"designIds": [12,45,40,1]
+	},
+	{
+		"designIds": [41,24,34,1]
+	},
+	{
+		"designIds": [9,43,38,0]
+	},
+	{
+		"designIds": [16,45,40,1]
+	},
+	{
+		"designIds": [6,6,39,0]
+	},
+	{
+		"designIds": [7,6,39,0]
+	},
+	{
+		"designIds": [9,9,38,0]
+	},
+	{
+		"designIds": [7,7,39,0]
+	},
+	{
+		"designIds": [19,22,22,0]
+	},
+	{
+		"designIds": [6,26,39,0]
+	},
+	{
+		"designIds": [14,31,38,0]
+	},
+	{
+		"designIds": [44,26,39,0]
+	},
+	{
+		"designIds": [14,25,38,0]
+	},
+	{
+		"designIds": [44,20,39,0]
+	},
+	{
+		"designIds": [14,28,38,0]
+	},
+	{
+		"designIds": [15,24,34,1]
+	},
+	{
+		"designIds": [9,31,38,0]
+	},
+	{
+		"designIds": [9,28,38,0]
+	},
+	{
+		"designIds": [22,22,22,0]
+	},
+	{
+		"designIds": [6,32,39,0]
+	},
+	{
+		"designIds": [15,21,34,1]
+	},
+	{
+		"designIds": [42,27,34,1]
+	},
+	{
+		"designIds": [7,20,39,0]
+	},
+	{
+		"designIds": [16,30,40,1]
+	},
+	{
+		"designIds": [44,32,39,0]
+	},
+	{
+		"designIds": [16,23,40,1]
+	},
+	{
+		"designIds": [43,31,38,0]
+	},
+	{
+		"designIds": [45,23,40,1]
+	},
+	{
+		"designIds": [43,28,38,0]
+	},
+	{
+		"designIds": [33,33,33,1]
+	},
+	{
+		"designIds": [45,29,40,1]
+	},
+	{
+		"designIds": [9,25,38,0]
+	},
+	{
+		"designIds": [12,23,40,1]
+	},
+	{
+		"designIds": [15,27,34,1]
+	},
+	{
+		"designIds": [42,24,34,1]
+	},
+	{
+		"designIds": [12,30,40,1]
+	},
+	{
+		"designIds": [10,21,34,1]
+	},
+	{
+		"designIds": [6,20,39,0]
+	},
+	{
+		"designIds": [45,30,40,1]
+	},
+	{
+		"designIds": [42,21,34,1]
+	},
+	{
+		"designIds": [43,25,38,0]
+	},
+	{
+		"designIds": [12,29,40,1]
+	},
+	{
+		"designIds": [16,29,40,1]
+	},
+	{
+		"designIds": [7,26,39,0]
+	},
+	{
+		"designIds": [10,27,34,1]
+	},
+	{
+		"designIds": [7,32,39,0]
+	},
+	{
+		"designIds": [10,24,34,1]
+	},
+	{
+		"designIds": [30,30,40,1]
+	},
+	{
+		"designIds": [27,27,34,1]
+	},
+	{
+		"designIds": [24,24,34,1]
+	},
+	{
+		"designIds": [21,21,34,1]
+	},
+	{
+		"designIds": [26,26,39,0]
+	},
+	{
+		"designIds": [21,27,34,1]
+	},
+	{
+		"designIds": [26,32,39,0]
+	},
+	{
+		"designIds": [20,32,39,0]
+	},
+	{
+		"designIds": [25,25,38,0]
+	},
+	{
+		"designIds": [25,28,38,0]
+	},
+	{
+		"designIds": [31,31,38,0]
+	},
+	{
+		"designIds": [26,20,39,0]
+	},
+	{
+		"designIds": [20,20,39,0]
+	},
+	{
+		"designIds": [27,24,34,1]
+	},
+	{
+		"designIds": [23,29,40,1]
+	},
+	{
+		"designIds": [31,28,38,0]
+	},
+	{
+		"designIds": [28,28,38,0]
+	},
+	{
+		"designIds": [29,29,40,1]
+	},
+	{
+		"designIds": [30,23,40,1]
+	},
+	{
+		"designIds": [25,31,38,0]
+	},
+	{
+		"designIds": [30,29,40,1]
+	},
+	{
+		"designIds": [23,23,40,1]
+	},
+	{
+		"designIds": [32,32,39,0]
+	},
+	{
+		"designIds": [21,24,34,1]
+	}
+]

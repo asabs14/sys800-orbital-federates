@@ -1,0 +1,5402 @@
+[
+	{
+		"objectType": "GROUND",
+		"components": ["pSGL"]
+	},
+	{
+		"objectType": "GROUND",
+		"components": ["oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","pISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","pSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","DAT","oSGL","oISL"]
+	},
+	{
+		"objectType": "SAT",
+		"components": ["VIS","SAR","DAT","oSGL","oISL"]
+	}
+]

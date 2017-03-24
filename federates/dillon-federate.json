@@ -1,0 +1,18 @@
+{
+    "designId": 532,
+    "designConfiguration": [
+    {
+        "objectType": "GroundStation",
+        "components":
+        [
+            "OSL"
+        ]
+    },
+    {
+        "objectType": "GroundStation",
+        "components":
+        [
+            "OSL"
+        ]
+    }]
+}
