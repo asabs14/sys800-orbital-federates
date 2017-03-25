@@ -3,7 +3,7 @@ var designs = require("./designs.json");
 var async = require('asyncawait/async');
 var await = require('asyncawait/await');
 
-var url = 'mongodb://localhost:27017/orbitalFederates';
+var url = 'mongodb://155.246.39.17:27017/orbitalFederates';
 
 var MongoClient = mongodb.MongoClient;
 
