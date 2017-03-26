@@ -1,0 +1,8 @@
+input:focus+label {
+    color: #4a148c !important;
+}
+
+input:focus {
+    border-color: #4a148c !important;
+    box-shadow: 0 1px 0 0 #4a148c !important;
+}
