@@ -1,8 +1,12 @@
-input:focus+label {
-    color: #4a148c !important;
+.audiowide {
+    font-family: 'Audiowide', cursive;
 }
 
-input:focus {
-    border-color: #4a148c !important;
-    box-shadow: 0 1px 0 0 #4a148c !important;
+.input-field :first-child:focus+label {
+    color: #311b92 !important;
+}
+
+.input-field :first-child:focus {
+    border-color: #311b92 !important;
+    box-shadow: 0 1px 0 0 #311b92 !important;
 }
