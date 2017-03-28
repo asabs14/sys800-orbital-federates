@@ -68,6 +68,10 @@ function startWebserver() {
         extensions: ["html", "htm"]
     }));
 
+    app.post("/api/query", function (req, res) {
+        res.json([{"this": "that"},{"this": "that again"}]);
+    });
+
     app.listen(PORT, function () {
         console.log(`Example app listening on port ${PORT}`);
     })

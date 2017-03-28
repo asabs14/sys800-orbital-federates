@@ -2,30 +2,23 @@
 
 function httpGetAsync(theUrl, callback) {
         
-        let xmlHttp = new XMLHttpRequest();
-        xmlHttp.onreadystatechange = function() { 
-            if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
-                callback(xmlHttp.responseText);
+    let xhr = new XMLHttpRequest();
+    xhr.open("POST", "/api/query", true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onreadystatechange = function () {
+        if (this.readyState != 4) return;
+        if (this.status == 200) {
+            callback(this.responseText);
         }
-        xmlHttp.open("GET", theUrl, true); // true for asynchronous 
-        xmlHttp.send(null);
+    };
+    xhr.send(theUrl);
 }
 
 function submitQuery() {
 
     const federateQuery = document.getElementById('federate-query').value;
 
-    /*
     httpGetAsync(federateQuery, function(response){
-        // Pretty-print JSON; response is a list of JSON objects
-        for(let result in response) {
-
-            // TODO: put the below pretty-print into results
-            JSON.stringify(result, null, 2);
-
-        }
+        document.getElementById("query-result").innerHTML = JSON.stringify(JSON.parse(response),null,"\t");
     });
-    */
-
-    document.getElementById("query-result").innerHTML = JSON.stringify({"stuff": "stuff", "Did it work?": "Yes it did, good job"}, null, 2);
 }
