@@ -4,11 +4,12 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>Orbital Federates Query</title>
+  <meta name="description" content="Querying Interface for Orbital Federates">
+  <meta name="author" content="Alex Sabella">
 
 	<!-- Compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -28,15 +29,27 @@
 
 					<div class="row">
 						<div class="col s12">
-							<div class="input-field col m6 s12">
-								<textarea id="federateQuery" class="materialize-textarea"></textarea>
-								<label for="federateQuery">Insert Query</label>
+							<div class="input-field col l6 m12">
+								<textarea id="federate-query" class="materialize-textarea"></textarea>
+								<label for="federate-query">Insert Query</label>
 							</div>
 						</div>
 					</div>
 
 				</form>
+
+				<button class="btn waves-effect waves-light btn-large deep-purple darken-4" onclick="submitQuery()">Submit
+						<i class="material-icons right">send</i>
+				</button>
+
 			</div>
+
+			<div class="row">
+				<div class="col s12">
+					<pre class="audiowide" id="query-result"></pre>
+				</div>
+			</div>
+
 		</div>
 	</div>
 
