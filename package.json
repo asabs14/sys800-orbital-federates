@@ -9,6 +9,7 @@
     "express": "^4.15.2",
     "express-cache-response": "^1.0.2",
     "express-dot-engine": "^1.0.7",
+    "express-minify": "^0.2.0",
     "mongodb": "^2.2.25"
   },
   "devDependencies": {},

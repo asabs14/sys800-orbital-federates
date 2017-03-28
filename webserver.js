@@ -14,7 +14,7 @@ let MongoClient = mongodb.MongoClient;
 
 let app = express();
 
-function startWebserver() {
+function startWebserver(db) {
     if (process.env.NODE_ENV === "production") {
         
         // Serve cached static responses to reduce overhead:
@@ -69,7 +69,20 @@ function startWebserver() {
     }));
 
     app.post("/api/query", function (req, res) {
-        res.json([{"this": "that"},{"this": "that again"}]);
+        let collection = db.collection("designs");
+        collection.find({}).toArray(function (err, result) {
+            if (err) {
+                console.log(err);
+            } else if (result.length) {
+                console.log('Found:', result);
+                console.log(result);
+                res.json(result);
+            } else {
+                console.log('No document(s) found with defined "find" criteria!');
+                res.json("No results found...");
+            }
+        });
+        //res.json([{"this": "that"},{"this": "that again"}]);
     });
 
     app.listen(PORT, function () {
@@ -81,6 +94,6 @@ MongoClient.connect(url, function (err, db) {
     if (err) {
         console.log('Unable to connect to the mongoDB server. Error:', err);
     } else {
-        startWebserver();
+        startWebserver(db);
     }
 });

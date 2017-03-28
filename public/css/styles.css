@@ -1,5 +1,14 @@
+@font-face {
+    font-family: Aero;
+    src: url("../fonts/Aero.ttf");
+}
+
 .audiowide {
     font-family: 'Audiowide', cursive;
+}
+
+.aero {
+    font-family: 'Aero';
 }
 
 .input-field :first-child:focus+label {
