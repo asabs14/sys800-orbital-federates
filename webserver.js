@@ -145,7 +145,7 @@ function startWebserver(db) {
 
     }
 
-    function parseLine (line,error) {
+    function parseLine (line) {
         let state = {"context": "", "result": {}};
         lines = line.split("\n");
         for (var i = 0; i < lines.length; ++i) {
@@ -170,7 +170,7 @@ function startWebserver(db) {
                     break;
                 default:
                     error = `No function given on ${line}`;
-                    return error;
+                    return "";
             }
         }
         return state.result;
