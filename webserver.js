@@ -69,13 +69,11 @@ function startWebserver(db) {
         extensions: ["html", "htm"]
     }));
 
-    let error = "";
-
     function parseContext (state, line) {
         state.context = line;
     }
 
-    function parseFind (state, line) {
+    function parseFind (state, line, error) {
         let query = {};
         // Split by OR
         let terms = line.split(/ or /i);
@@ -91,7 +89,7 @@ function startWebserver(db) {
                 terms[i][j] = terms[i][j].trim();
                 let matches = terms[i][j].match(/^(.+?)([>=<]+)(.+?)$/);
                 if (matches.length !== 4) {
-                    error = `Comparison statement not valid on Find: ${terms[i][j]}`;
+                    error.push(`Comparison statement not valid on Find: ${terms[i][j]}`);
                     return;
                 }
                 matches[1] = matches[1].trim();
@@ -115,7 +113,7 @@ function startWebserver(db) {
                         oper = "$eq";
                         break;
                     default:
-                        error = `Equality operator not valid on Find: ${terms[i][j]}`;
+                        error.push(`Equality operator not valid on Find: ${terms[i][j]}`);
                         return;
                 }
                 if (matches[1].includes("|len")) {
@@ -145,14 +143,14 @@ function startWebserver(db) {
 
     }
 
-    function parseLine (line) {
+    function parseLine (line, error) {
         let state = {"context": "", "result": {}};
         lines = line.split("\n");
         for (var i = 0; i < lines.length; ++i) {
             let line = lines[i].split(":",2);
             let fn = line[0];
             if (line.length <= 1) {
-                error = `No argument given on ${line}`;
+                error.push(`No argument given on ${line}`);
                 return "";
             }
             let arg = line[1];
@@ -162,14 +160,14 @@ function startWebserver(db) {
                     parseContext(state, arg);
                     break;
                 case "find":
-                    parseFind(state, arg);
-                    if (error) return "";
+                    parseFind(state, arg, error);
+                    if (error.length > 0) return "";
                     break;
                 case "lookup":
                     parseLookup(state, arg);
                     break;
                 default:
-                    error = `No function given on ${line}`;
+                    error.push(`No function given on ${line}`);
                     return "";
             }
         }
@@ -177,8 +175,9 @@ function startWebserver(db) {
     }
 
     app.post("/api/query", bodyParser.json(), function (req, res) {
-        let result = parseLine(req.body.query);
-        if (error) {
+        let error = [];
+        let result = parseLine(req.body.query, error);
+        if (error.length > 0) {
             res.send({Error: error});
         } else {
             res.send(result);
