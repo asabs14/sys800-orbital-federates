@@ -78,19 +78,19 @@ function startWebserver(db) {
     const parseFind = async(function (state, line, error) {
         let query = {};
         // Split by OR
-        let terms = line.split(/ or /i);
+        let terms = line.match(/(("(?:\\"|[^"])*")+|[^|])+/g);
         let orList = [];
         // For every OR
         for (let i = 0; i < terms.length; ++i) {
             // Split by AND
             terms[i] = terms[i].trim();
-            terms[i] = terms[i].split(/ and /i);
+            terms[i] = terms[i].match(/(("(?:\\"|[^"])*")+|[^&])+/g);
             let andList = [];
             // For every AND
             for (let j = 0; j < terms[i].length; ++j) {
                 terms[i][j] = terms[i][j].trim();
-                let matches = terms[i][j].match(/^(.+?)([>=<]+)(.+?)$/);
-                if (matches.length !== 4) {
+                let matches = terms[i][j].match(/^(.+?)([>=<!]+)(.+?)$/);
+                if (!matches || matches.length !== 4) {
                     error.push(`Comparison statement not valid on Find: ${terms[i][j]}`);
                     return;
                 }
@@ -114,6 +114,9 @@ function startWebserver(db) {
                     case "=":
                         oper = "$eq";
                         break;
+                    case "!=":
+                        oper = "$ne";
+                        break;
                     default:
                         error.push(`Equality operator not valid on Find: ${terms[i][j]}`);
                         return;
@@ -124,9 +127,9 @@ function startWebserver(db) {
                     error.push(err.message);
                     return;
                 }
-                if (matches[1].includes("|len")) {
+                if (matches[1].includes("@len")) {
                     matches[1] = matches[1].slice(0,-4);
-                    andList.push({[matches[1]]: {$size: {[oper]: matches[3]}}});
+                    andList.push({$where: `this.${matches[1]}.length${matches[2]}${matches[3]}`});
                 } else {
                     andList.push({[matches[1]]: {[oper]: matches[3]}});
                 }
