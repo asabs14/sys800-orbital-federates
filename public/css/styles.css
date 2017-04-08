@@ -11,6 +11,7 @@
     font-family: 'Aero';
 }
 
+/*
 .input-field :first-child:focus+label {
     color: #311b92 !important;
 }
@@ -19,3 +20,38 @@
     border-color: #311b92 !important;
     box-shadow: 0 1px 0 0 #311b92 !important;
 }
+*/
+
+/* text color without focus */
+.input-field textarea[type=text] {
+  color: #311b92;
+  border-color: #311b92;
+}
+/* label color */
+.input-field label {
+    color: #311b92;
+}
+/* label focus color */
+.input-field textarea[type=text]:focus + label {
+    color: #311b92;
+}
+/* label underline focus color */
+.input-field textarea[type=text]:focus {
+    border-bottom: 1px solid #311b92;
+    box-shadow: 0 1px 0 0 #311b92;
+}
+/* valid color */
+.input-field textarea[type=text].valid {
+    border-bottom: 1px solid green;
+    box-shadow: 0 1px 0 0 green;
+}
+/* invalid color */
+.input-field textarea[type=text].invalid {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 red;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #311b92;
+}
+        

@@ -1,3 +1,5 @@
+const async = require('asyncawait/async');
+const await = require('asyncawait/await');
 const bodyParser = require('body-parser');
 const cache = require("express-cache-response");
 const compression = require('compression');
@@ -73,7 +75,7 @@ function startWebserver(db) {
         state.context = line;
     }
 
-    function parseFind (state, line, error) {
+    const parseFind = async(function (state, line, error) {
         let query = {};
         // Split by OR
         let terms = line.split(/ or /i);
@@ -116,6 +118,12 @@ function startWebserver(db) {
                         error.push(`Equality operator not valid on Find: ${terms[i][j]}`);
                         return;
                 }
+                try {
+                    matches[3] = JSON.parse(matches[3]);
+                } catch (err) {
+                    error.push(err.message);
+                    return;
+                }
                 if (matches[1].includes("|len")) {
                     matches[1] = matches[1].slice(0,-4);
                     andList.push({[matches[1]]: {$size: {[oper]: matches[3]}}});
@@ -126,25 +134,66 @@ function startWebserver(db) {
             if (andList.length === 1) {
                 orList.push(andList[0]);
             } else {
-                orList.push({$AND: andList});
+                orList.push({$and: andList});
             }
         }
         if (orList.length === 1) {
             query = orList[0];
         } else {
-            query.$OR = orList;
+            query.$or = orList;
         }
-        state.result = query;
+        // Check for context before querying
+        if (!state.context) {
+            error.push(`No context stated`);
+            return;
+        }
+        // Query database
+        let collection = db.collection(state.context);
+        if (!collection) {
+            error.push(`Context does not exist in database`);
+            return;
+        }
+        try {
+            state.result = await (collection.find(query).toArray());
+        } catch (err) {
+            error.push(err.message);
+            return;
+        }
 
         return;
+    });
+
+    function parseLookup (state, line, error) {
+        /*
+        if (!state.context) {
+            error.push(`No context stated`);
+            return;
+        }
+        const lookupArgs = line.split(",");
+        if (lookupArgs.length < 3) {
+            error.push(`Not enough arguments for FIND`);
+            return;
+        }
+        lookupArgs[0] = lookupArgs[0].trim();
+        const lookupContext = state.context.lookupArgs[0] || "";
+        if(!lookupContext) {
+            error.push(`Field on FIND does not exist`);
+            return;
+        }
+        let collection = db.collection(state.context) || "";
+        if (!collection) {
+            error.push(`Context does not exist`);
+            return;
+        }
+        */
     }
 
-    function parseLookup (state, line) {
+    function parseFilter (state, line) {
 
     }
 
-    function parseLine (line, error) {
-        let state = {"context": "", "result": {}};
+    const parseLine = async(function (line, error) {
+        let state = {"context": "", "result": []};
         lines = line.split("\n");
         for (var i = 0; i < lines.length; ++i) {
             let line = lines[i].split(":",2);
@@ -160,11 +209,15 @@ function startWebserver(db) {
                     parseContext(state, arg);
                     break;
                 case "find":
-                    parseFind(state, arg, error);
+                    await (parseFind(state, arg, error));
                     if (error.length > 0) return "";
                     break;
                 case "lookup":
-                    parseLookup(state, arg);
+                    parseLookup(state, arg, error);
+                    if (error.length > 0) return "";
+                    break;
+                case "filter":
+                    parseFilter(state, arg);
                     break;
                 default:
                     error.push(`No function given on ${line}`);
@@ -172,11 +225,11 @@ function startWebserver(db) {
             }
         }
         return state.result;
-    }
+    });
 
-    app.post("/api/query", bodyParser.json(), function (req, res) {
+    app.post("/api/query", bodyParser.json(), async (function (req, res) {
         let error = [];
-        let result = parseLine(req.body.query, error);
+        let result = await (parseLine(req.body.query, error));
         if (error.length > 0) {
             res.send({Error: error});
         } else {
@@ -202,7 +255,7 @@ function startWebserver(db) {
         });
         */
         //res.json([{"this": "that"},{"this": "that again"}]);
-    });
+    }));
 
     app.listen(PORT, function () {
         console.log(`Example app listening on port ${PORT}`);
