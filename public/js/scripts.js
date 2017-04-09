@@ -19,6 +19,8 @@ function submitQuery() {
     const federateQuery = document.getElementById('federate-query').value;
     console.log(federateQuery);
 
+    document.getElementById("query-result").innerHTML = '<div class="progress"><div class="indeterminate "></div></div>';
+
     httpGetAsync(federateQuery, function(response){
         document.getElementById("query-result").innerHTML = JSON.stringify(JSON.parse(response),null,4);
     });

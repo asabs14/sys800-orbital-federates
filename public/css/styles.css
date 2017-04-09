@@ -54,4 +54,11 @@
 .input-field .prefix.active {
     color: #311b92;
 }
-        
+/* preloader color */
+.progress {
+    background-color: #d1c4e9;
+}
+
+.progress .indeterminate {
+    background-color: #311b92;
+}

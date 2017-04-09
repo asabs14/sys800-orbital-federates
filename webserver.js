@@ -89,7 +89,7 @@ function startWebserver(db) {
             // For every AND
             for (let j = 0; j < terms[i].length; ++j) {
                 terms[i][j] = terms[i][j].trim();
-                let matches = terms[i][j].match(/^(.+?)([>=<!]+)(.+?)$/);
+                let matches = terms[i][j].match(/^(.+?)([><!]=?|==)(.+?)$/);
                 if (!matches || matches.length !== 4) {
                     error.push(`Comparison statement not valid on Find: ${terms[i][j]}`);
                     return;
@@ -111,7 +111,7 @@ function startWebserver(db) {
                     case "<=":
                         oper = "$lte";
                         break;
-                    case "=":
+                    case "==":
                         oper = "$eq";
                         break;
                     case "!=":
@@ -163,33 +163,66 @@ function startWebserver(db) {
             return;
         }
 
+        console.log(JSON.stringify(query));
         return;
     });
 
-    function parseLookup (state, line, error) {
-        /*
+    const lookUpInDB = async(function(result, lookupArgs, pullFromCollection, error) {
+    let lookupFieldList = [];
+        try {
+            lookupFieldList = result[lookupArgs[0]];
+        } catch (err) {
+            error.push(err.message);
+            return;
+        }
+        let newList = [];
+        for (let j = 0; j < lookupFieldList.length; ++j) {
+            let replaceFieldList = [];
+            try {
+                replaceFieldList = await (pullFromCollection.find({ [lookupArgs[2]]: lookupFieldList[j] }).toArray());
+            } catch(err) {
+                error.push(err.message);
+                return;
+            }
+            if (replaceFieldList.length === 1) replaceFieldList = replaceFieldList[0];
+            newList.push(replaceFieldList);
+        }
+        if (lookupArgs.length === 4) {
+            result[lookupArgs[3].trim()] = newList;
+            delete result[lookupArgs[0]];
+        } else {
+            result[lookupArgs[0]] = newList;
+        }
+    });
+
+    const parseLookup = async(function(state, line, error) {
+        // Check for current context
         if (!state.context) {
             error.push(`No context stated`);
             return;
         }
+        // Check for valid lookup
         const lookupArgs = line.split(",");
         if (lookupArgs.length < 3) {
-            error.push(`Not enough arguments for FIND`);
+            error.push(`Not enough arguments for LOOKUP`);
             return;
         }
+        lookupArgs[1] = lookupArgs[1].trim();
+        let pullFromCollection = db.collection(lookupArgs[1]);
+        if (!pullFromCollection) {
+            error.push(`Context ${lookupArgs[1]} does not exist in database`);
+            return;
+        }
+        
         lookupArgs[0] = lookupArgs[0].trim();
-        const lookupContext = state.context.lookupArgs[0] || "";
-        if(!lookupContext) {
-            error.push(`Field on FIND does not exist`);
-            return;
+        lookupArgs[2] = lookupArgs[2].trim();
+        let promiseList = [];
+        for (let i = 0; i < state.result.length; ++i) {
+            promiseList.push(lookUpInDB(state.result[i], lookupArgs, pullFromCollection, error));
         }
-        let collection = db.collection(state.context) || "";
-        if (!collection) {
-            error.push(`Context does not exist`);
-            return;
-        }
-        */
-    }
+        await(promiseList);
+        return;
+    });
 
     function parseFilter (state, line) {
 
@@ -216,7 +249,7 @@ function startWebserver(db) {
                     if (error.length > 0) return "";
                     break;
                 case "lookup":
-                    parseLookup(state, arg, error);
+                    await (parseLookup(state, arg, error));
                     if (error.length > 0) return "";
                     break;
                 case "filter":
