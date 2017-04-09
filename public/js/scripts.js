@@ -1,5 +1,11 @@
 "use strict";
 
+document.getElementById("federate-query").addEventListener("keydown", function(e) {
+    if ((e.ctrlKey || e.metaKey) && (e.keyCode == 13 || e.keyCode == 10)) {
+        submitQuery();
+    }
+});
+
 function httpGetAsync(theUrl, callback) {
         
     let xhr = new XMLHttpRequest();
