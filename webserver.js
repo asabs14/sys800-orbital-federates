@@ -72,6 +72,11 @@ function startWebserver(db) {
     }));
 
     function parseContext (state, line) {
+        let terms = line.split(" ");
+        if (terms.length > 1) {
+            error.push(`Too many arguments in CONTEXT`);
+            return;
+        }
         state.context = line;
     }
 
@@ -253,7 +258,7 @@ function startWebserver(db) {
                     if (error.length > 0) return "";
                     break;
                 case "filter":
-                    parseFilter(state, arg);
+                    parseFilter(state, arg, error);
                     break;
                 default:
                     error.push(`No function given on ${line}`);
@@ -271,26 +276,6 @@ function startWebserver(db) {
         } else {
             res.send(result);
         }
-        
-
-        //res.send([[req.body.query],[req.body.query]]);        
-        
-        /*
-        let collection = db.collection("designs");
-        collection.find({}).toArray(function (err, result) {
-            if (err) {
-                console.log(err);
-            } else if (result.length) {
-                console.log('Found:', result);
-                console.log(result);
-                res.json(result);
-            } else {
-                console.log('No document(s) found with defined "find" criteria!');
-                res.json("No results found...");
-            }
-        });
-        */
-        //res.json([{"this": "that"},{"this": "that again"}]);
     }));
 
     app.listen(PORT, function () {
