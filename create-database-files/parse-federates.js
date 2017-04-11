@@ -15,7 +15,7 @@ MongoClient.connect(url, async(function (err, db) {
 
         var collection = db.collection('federates');
 
-        var currentFederateId = 0;
+        var currentFederateId = 1;
 
         for(var federate of federates){
             if(!await(collection.findOne(federate))){
