@@ -71,7 +71,7 @@ function startWebserver(db) {
         extensions: ["html", "htm"]
     }));
 
-    function parseContext (state, line) {
+    function parseContext (state, line, error) {
         let terms = line.split(" ");
         if (terms.length > 1) {
             error.push(`Too many arguments in CONTEXT`);
@@ -167,8 +167,7 @@ function startWebserver(db) {
             error.push(err.message);
             return;
         }
-
-        console.log(JSON.stringify(query));
+        
         return;
     });
 
@@ -229,8 +228,11 @@ function startWebserver(db) {
         return;
     });
 
-    function parseFilter (state, line) {
-
+    function parseWhere (state, line, error) {
+        const userFunction = new Function (`return ${line};`);
+        state.result = state.result.filter(function (result) {
+            return userFunction.call(result);
+        });
     }
 
     const parseLine = async(function (line, error) {
@@ -247,7 +249,7 @@ function startWebserver(db) {
             arg = arg.trim();
             switch(line[0].trim().toLowerCase()) {
                 case "context":
-                    parseContext(state, arg);
+                    parseContext(state, arg, error);
                     break;
                 case "find":
                     await (parseFind(state, arg, error));
@@ -257,8 +259,8 @@ function startWebserver(db) {
                     await (parseLookup(state, arg, error));
                     if (error.length > 0) return "";
                     break;
-                case "filter":
-                    parseFilter(state, arg, error);
+                case "where":
+                    parseWhere(state, arg, error);
                     break;
                 default:
                     error.push(`No function given on ${line}`);
