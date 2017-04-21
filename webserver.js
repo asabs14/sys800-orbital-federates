@@ -17,6 +17,7 @@ let MongoClient = mongodb.MongoClient;
 
 let app = express();
 
+// Webserver starts configuring after connection is established to MongoDB on Stevens network
 function startWebserver(db) {
     if (process.env.NODE_ENV === "production") {
         
@@ -32,47 +33,21 @@ function startWebserver(db) {
         }));
     }
 
-    app.engine('dot', engine.__express);
-    app.set('views', path.join(__dirname, './views'));
-    app.set('view engine', 'dot');
-
-    // Gets a list of all files under folder including children of subfolders
-    function walkSync(dir, prepend = "", fileList = []) {
-        for (const file of fs.readdirSync(dir)) {
-            if (fs.statSync(path.join(dir, file)).isDirectory()) {
-                fileList = walkSync(path.join(dir, file), path.join(prepend, file), fileList);
-            } else {
-                fileList = fileList.concat(path.join(prepend, file));
-            }
-        }
-
-        return fileList;
-    }
-
-    // Set up dot.js to translate link to page address
-    if (fs.existsSync(path.join(__dirname, "./views"))) {
-        walkSync(path.join(__dirname, "./views")).forEach((filePathOrig) => {
-            // Files is an array of filename
-            let filePath = filePathOrig.replace(/\.dot$/, ""); // Remove .dot at end of file names
-
-            filePath = filePath.replace("\\", "/"); // Replace \ with /
-            filePath = filePath.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"); // Escape regex operators in filePath
-            filePath = filePath.replace(/(index)?$/, "($1(\.html)?)?"); // Make index and .html optional in the filePath
-            let filePathRegex = new RegExp(`^\/${filePath}$`); // Set up regex matching for app get route
-
-            // Set up route for each page
-            app.get(filePathRegex, function (req, res, next) {
-                res.render(filePathOrig);
-            });
-        });
-    }
     // Serve static content:
     app.use(express.static(path.join(__dirname, "./public"), {
         extensions: ["html", "htm"]
     }));
 
+    /* Query Parsing Algorithms */
+
+    /*
+    Input: state({ context: (string), results: (list) }), line(string), error(list)
+    Output: none
+    Purpose: Takes in the argument from a CONTEXT function and changes the state.context to reflect the request
+    */
     function parseContext (state, line, error) {
         let terms = line.split(" ");
+        // Mongo collections are always one word
         if (terms.length > 1) {
             error.push(`Too many arguments in CONTEXT`);
             return;
@@ -80,14 +55,19 @@ function startWebserver(db) {
         state.context = line;
     }
 
+    /*
+    Input: state({ context: (string), results: (list) }), line(string), error(list)
+    Output: none
+    Purpose: Takes in the argument from a FIND function, formulates a Mongo query, queries the MongoDB, puts the results into state.results
+    */
     const parseFind = async(function (state, line, error) {
         let query = {};
-        // Split by OR
+        // Split by OR, ignoring characters in quotes
         let terms = line.match(/(("(?:\\"|[^"])*")+|[^|])+/g);
         let orList = [];
         // For every OR
         for (let i = 0; i < terms.length; ++i) {
-            // Split by AND
+            // Split by AND, ignoring characters in quotes
             terms[i] = terms[i].trim();
             terms[i] = terms[i].match(/(("(?:\\"|[^"])*")+|[^&])+/g);
             let andList = [];
@@ -132,6 +112,7 @@ function startWebserver(db) {
                     error.push(err.message);
                     return;
                 }
+                // Start creating Mongo Query
                 if (matches[1].includes("@len")) {
                     matches[1] = matches[1].slice(0,-4);
                     andList.push({$where: `this.${matches[1]}.length${matches[2]}${matches[3]}`});
@@ -150,11 +131,13 @@ function startWebserver(db) {
         } else {
             query.$or = orList;
         }
+
         // Check for context before querying
         if (!state.context) {
             error.push(`No context stated`);
             return;
         }
+
         // Query database
         let collection = db.collection(state.context);
         if (!collection) {
@@ -162,7 +145,7 @@ function startWebserver(db) {
             return;
         }
         try {
-            state.result = await (collection.find(query).toArray());
+            state.results = await (collection.find(query).toArray());
         } catch (err) {
             error.push(err.message);
             return;
@@ -171,10 +154,15 @@ function startWebserver(db) {
         return;
     });
 
-    const lookUpInDB = async(function(result, lookupArgs, pullFromCollection, error) {
-    let lookupFieldList = [];
+    /*
+    Input: results(list), lookupArgs(list), pullFromCollection(string), error(list)
+    Output: none
+    Purpose: Performs Mongo queries to replace referenced ids in "results" with actual objects from the "pullFromCollection"
+    */
+    const lookUpInDB = async(function(results, lookupArgs, pullFromCollection, error) {
+        let lookupFieldList = [];
         try {
-            lookupFieldList = result[lookupArgs[0]];
+            lookupFieldList = results[lookupArgs[0]];
         } catch (err) {
             error.push(err.message);
             return;
@@ -191,14 +179,21 @@ function startWebserver(db) {
             if (replaceFieldList.length === 1) replaceFieldList = replaceFieldList[0];
             newList.push(replaceFieldList);
         }
+        // Replace the field name in "results" that was looked up if the user has provided a new name for it
         if (lookupArgs.length === 4) {
-            result[lookupArgs[3].trim()] = newList;
-            delete result[lookupArgs[0]];
+            results[lookupArgs[3].trim()] = newList;
+            delete results[lookupArgs[0]];
         } else {
-            result[lookupArgs[0]] = newList;
+            results[lookupArgs[0]] = newList;
         }
     });
 
+    /*
+    Input: state({ context: (string), results: (list) }), line(string), error(list)
+    Output: none
+    Purpose: Takes in the argument from a LOOKUP function, formulates a Mongo query, queries the MongoDB, 
+        puts the results into appropriate field in state.results and replaces field if necessary
+    */
     const parseLookup = async(function(state, line, error) {
         // Check for current context
         if (!state.context) {
@@ -220,34 +215,50 @@ function startWebserver(db) {
         
         lookupArgs[0] = lookupArgs[0].trim();
         lookupArgs[2] = lookupArgs[2].trim();
+        // Array of promises to be executed synchronously
         let promiseList = [];
-        for (let i = 0; i < state.result.length; ++i) {
-            promiseList.push(lookUpInDB(state.result[i], lookupArgs, pullFromCollection, error));
+        for (let i = 0; i < state.results.length; ++i) {
+            promiseList.push(lookUpInDB(state.results[i], lookupArgs, pullFromCollection, error));
         }
+        // Wait for lookups to finish
         await(promiseList);
         return;
     });
 
+    /*
+    Input: state({ context: (string), results: (list) }), line(string), error(list)
+    Output: none
+    Purpose: Allows the user to run custom JavaScript on each result to filter results (especially after lookup) 
+    */
     function parseWhere (state, line, error) {
+        // Create a function using the user's input
         const userFunction = new Function (`return ${line};`);
-        state.result = state.result.filter(function (result) {
+        // Run the function on each result. If the function returns boolean "true", the result stays, if "false", it is removed
+        state.results = state.results.filter(function (result) {
+            // Calls user defined function with each corresponding "result" becoming "this" in the scope of each run of the user defined function
             return userFunction.call(result);
         });
     }
 
-    const parseLine = async(function (line, error) {
-        let state = {"context": "", "result": []};
-        lines = line.split("\n");
+    /*
+    Input: query(string), error(list)
+    Output: state.results(list)
+    Purpose: Parse a query and return the results
+    */
+    const parseQuery = async(function (query, error) {
+        // Main object to handle context and results
+        let state = {"context": "", "results": []};
+        lines = query.split("\n");
         for (var i = 0; i < lines.length; ++i) {
             let line = lines[i].split(":",2);
-            let fn = line[0];
+            let fn = line[0].trim().toLowerCase();
             if (line.length <= 1) {
                 error.push(`No argument given on ${line}`);
                 return "";
             }
             let arg = line[1];
             arg = arg.trim();
-            switch(line[0].trim().toLowerCase()) {
+            switch(fn) {
                 case "context":
                     parseContext(state, arg, error);
                     break;
@@ -267,16 +278,19 @@ function startWebserver(db) {
                     return "";
             }
         }
-        return state.result;
+        return state.results;
     });
 
+    // Receive POST from client
     app.post("/api/query", bodyParser.json(), async (function (req, res) {
         let error = [];
-        let result = await (parseLine(req.body.query, error));
+        let results = await (parseQuery(req.body.query, error));
+
+        // If there are errors
         if (error.length > 0) {
             res.send({Error: error});
         } else {
-            res.send(result);
+            res.send(results);
         }
     }));
 
@@ -285,6 +299,7 @@ function startWebserver(db) {
     })
 }
 
+// Webserver starts here
 MongoClient.connect(url, function (err, db) {
     if (err) {
         console.log('Unable to connect to the mongoDB server. Error:', err);

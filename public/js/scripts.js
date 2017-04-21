@@ -1,11 +1,13 @@
 "use strict";
 
+// Submit with (Ctrl + Enter) when focus is on textarea
 document.getElementById("federate-query").addEventListener("keydown", function(e) {
     if ((e.ctrlKey || e.metaKey) && (e.keyCode == 13 || e.keyCode == 10)) {
         submitQuery();
     }
 });
 
+// Submit a POST to Webserver
 function httpGetAsync(theUrl, callback) {
         
     let xhr = new XMLHttpRequest();
@@ -20,10 +22,10 @@ function httpGetAsync(theUrl, callback) {
     xhr.send(JSON.stringify({'query': theUrl}));
 }
 
+// Called when form is submitted
 function submitQuery() {
 
     const federateQuery = document.getElementById('federate-query').value;
-    console.log(federateQuery);
 
     document.getElementById("query-result").innerHTML = '<div class="progress"><div class="indeterminate "></div></div>';
 

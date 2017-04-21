@@ -11,18 +11,7 @@
     font-family: 'Aero';
 }
 
-/*
-.input-field :first-child:focus+label {
-    color: #311b92 !important;
-}
-
-.input-field :first-child:focus {
-    border-color: #311b92 !important;
-    box-shadow: 0 1px 0 0 #311b92 !important;
-}
-*/
-
-/* text color without focus */
+/* text color without focus, used for inputted text */
 .input-field textarea[type=text] {
   color: #311b92;
   border-color: #311b92;

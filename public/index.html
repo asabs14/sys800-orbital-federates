@@ -11,7 +11,9 @@
 	<!-- Compiled and minified CSS -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<!-- Using MaterializCSS for styling <materialize.css.com> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+	<!-- Custom Styling -->
   <link rel="stylesheet" href="css/styles.css">
 
   <!--[if lt IE 9]>
@@ -25,8 +27,12 @@
 		<div class="section">
 			<h1>Orbital Federates</h1>
 			<div class="row">
-				<form class="s12" onsubmit="return false;">
 
+				<!-- Main Form for Query -->
+				<!-- Return false prevents default form action/page reroute and allows control via scripts.js -->
+				<form class="s12" onsubmit="return false;"> 
+
+					<!-- TextArea Input Box -->
 					<div class="row">
 						<div class="col s12">
 							<div class="input-field col l8 m12">
@@ -35,13 +41,21 @@
 							</div>
 						</div>
 					</div>
-					<button class="btn waves-effect waves-light btn-large deep-purple darken-4" onclick="submitQuery()">Submit
-						<i class="material-icons right">send</i>
-					</button>
+
+					<!-- Submit Button; Can also submit with (Ctrl + Enter) while focus is on textarea -->
+					<div class-"row">
+						<div class="col s12">
+							<button class="btn waves-effect waves-light btn-large deep-purple darken-4" onclick="submitQuery()">Submit
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
+					</div>
+
 				</form>
 
 			</div>
 
+			<!-- Result Area -->
 			<div class="row">
 				<div class="col s12">
 					<pre class="audiowide" id="query-result"></pre>
